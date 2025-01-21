@@ -53,7 +53,7 @@ const signup = () => {
   console.log("Info ==> ", signupInfo);
   return (
     <div className="container mt-8">
-      <h1 className="text-white text-4xl text-center">Login</h1>
+      <h1 className="text-white text-4xl text-center">Signup</h1>
       <form className="max-w-sm mx-auto mt-8" onSubmit={handleSignup}>
         <div className="mb-5">
           <label
@@ -144,7 +144,7 @@ const signup = () => {
             to="/login"
             className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
           >
-            Singup
+            Login
           </Link>
         </div>
       </form>
