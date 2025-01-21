@@ -24,7 +24,7 @@ const signup = () => {
       return handleError("All fields are required");
     }
     try {
-      const url = "http://localhost:8080/auth/singup";
+      const url = "https://mern-app-pearl-ten.vercel.app/auth/singup";
       const response = await fetch(url, {
         method: "Post",
         headers: {

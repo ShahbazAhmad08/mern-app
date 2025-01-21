@@ -23,7 +23,7 @@ const Login = () => {
       return handleError("All fields are required");
     }
     try {
-      const url = "http://localhost:8080/auth/login";
+      const url = "https://mern-app-pearl-ten.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "Post",
         headers: {
